@@ -1,0 +1,66 @@
+
+.monster-card {
+  background: #21152f;
+  border: 2px solid #a66cff;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 15px #8e44ad;
+}
+
+.monster-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.contenido h2 {
+  color: #d5b8ff;
+  margin-top: 12px;
+}
+
+.contenido p {
+  color: #eeeeee;
+}
+
+button {
+  background: #a66cff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #7d3cbd;
+}
+
+.informacion {
+  background: #382450;
+  border: 1px solid #c4a5ff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 15px;
+  animation: aparecer 0.4s ease;
+}
+
+.informacion p {
+  color: #e5d5ff;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,22 @@
+
+<div class="monster-card">
+
+  <img [src]="imagen" [alt]="titulo">
+
+  <div class="contenido">
+
+    <h2>{{ titulo }}</h2>
+
+    <p>{{ descripcion }}</p>
+
+    <button type="button" (click)="mostrarMensaje()">
+      {{ mostrarInfo ? 'Ocultar información' : textoBoton }}
+    </button>
+
+    <div class="informacion" *ngIf="mostrarInfo">
+      <p>{{ informacionExtra }}</p>
+    </div>
+
+  </div>
+
+</div>

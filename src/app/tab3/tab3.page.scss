@@ -1,0 +1,56 @@
+
+.galeria {
+  --background: #100b1c;
+}
+
+.contenido {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: #b99aff;
+  font-size: 27px;
+}
+
+.introduccion {
+  color: #d8c9ff;
+  margin-bottom: 25px;
+}
+
+.imagen {
+  background: #241936;
+  border: 1px solid #8055b5;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 12px #38245c;
+}
+
+.imagen img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.dibujo {
+  font-size: 90px;
+  padding: 15px;
+}
+
+h2 {
+  color: #c4a5ff;
+}
+
+p {
+  color: white;
+  line-height: 1.5;
+}
+
+.frase {
+  color: #d8c9ff;
+  font-style: italic;
+  margin: 30px 0;
+}

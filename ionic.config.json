@@ -1,0 +1,7 @@
+{
+  "name": "halloween-fantasma",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
